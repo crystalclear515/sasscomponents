@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 14px 36px;
   border: 1px solid $color-accent;
-  font-family: 'Roboto', sans-serif;
+  font-family: $main-font;
   font-size: 20px;
   cursor: pointer;
   &--primary{
