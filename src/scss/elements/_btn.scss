@@ -1,0 +1,40 @@
+.btn{
+  box-sizing: border-box;
+  padding: 14px 36px;
+  border: 1px solid $color-accent;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  &--primary{
+    background-color: $color-accent;
+    color: $color-sub-accent;
+    &:hover{
+      border-color: $color-btn-hover;
+      background-color: $color-btn-hover;
+      transition: 0.3s;
+    }
+  }
+  &--secondary{
+    background-color: transparent;
+    &:hover{
+      border-color: $color-btn-hover;
+      color: $color-btn-hover;
+      transition: 0.3s;
+    }
+  }
+  &--text{
+    position: relative;
+    padding: 0px 36px;
+    background-color: transparent;
+    border: none;
+    &::after{
+      right: 20px;
+      content: ">";
+      transition: right 0.3s;
+      position: absolute;
+      }
+    &:hover::after{
+      right: -5px;
+    }
+  }
+}
