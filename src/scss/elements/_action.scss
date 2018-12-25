@@ -1,0 +1,16 @@
+.action{
+  &__bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2px;
+    align-self: end;
+  }
+}
+
+@media (min-width: 1024px){
+  .action{
+    &__bottom{
+      grid-template-columns: 1fr;
+    }
+  }
+}
