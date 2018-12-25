@@ -86,6 +86,8 @@
     margin: 0px; }
   .heading--calendar {
     margin: 0px; }
+  .heading--split {
+    margin: 0px; }
 
 .body-copy {
   padding: 3% 0; }
@@ -128,3 +130,13 @@
       grid-gap: 5px; }
     .card__item--calendar {
       background-color: #BB0A30; }
+    .card__item--split {
+      display: grid;
+      grid-gap: 3px;
+      grid-template-columns: 1fr 1fr;
+      padding: 0px;
+      color: #000000; }
+
+.split__item {
+  background-color: #fff;
+  padding: 15px 15px 40px 15px; }

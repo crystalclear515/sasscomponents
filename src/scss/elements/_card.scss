@@ -24,5 +24,12 @@
     &--calendar{
       background-color: $extra-color;
     }
+    &--split{
+      display: grid;
+      grid-gap: 3px;
+      grid-template-columns: 1fr 1fr;
+      padding: 0px;
+      color: $color-accent;
+    }
   }
 }
