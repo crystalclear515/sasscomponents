@@ -29,11 +29,12 @@
       transition: 0.3s; }
   .btn--text {
     position: relative;
-    padding: 0px 36px;
+    padding: 0px;
     background-color: transparent;
-    border: none; }
+    border: none;
+    max-width: 125px; }
     .btn--text::after {
-      right: 20px;
+      right: 0px;
       content: ">";
       -webkit-transition: right 0.3s;
       -o-transition: right 0.3s;
@@ -41,6 +42,9 @@
       position: absolute; }
     .btn--text:hover::after {
       right: -5px; }
+
+.calendar__btn--text {
+  color: #fff; }
 
 .heading {
   margin: 0;
@@ -79,6 +83,8 @@
   .heading--headline {
     margin: 0px; }
   .heading--action {
+    margin: 0px; }
+  .heading--calendar {
     margin: 0px; }
 
 .body-copy {
@@ -120,3 +126,5 @@
     .card__item--action {
       background-color: #fff;
       grid-gap: 5px; }
+    .card__item--calendar {
+      background-color: #BB0A30; }

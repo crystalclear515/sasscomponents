@@ -24,11 +24,12 @@
   }
   &--text{
     position: relative;
-    padding: 0px 36px;
+    padding: 0px;
     background-color: transparent;
     border: none;
+    max-width: 125px;
     &::after{
-      right: 20px;
+      right: 0px;
       content: ">";
       transition: right 0.3s;
       position: absolute;
@@ -37,4 +38,8 @@
       right: -5px;
     }
   }
+}
+
+.calendar__btn--text{
+  color: $color-sub-accent;
 }
