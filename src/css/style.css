@@ -1,3 +1,7 @@
+.root {
+  padding: 0px;
+  margin: 0px; }
+
 .btn {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -72,9 +76,47 @@
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 0px; }
+  .heading--headline {
+    margin: 0px; }
+  .heading--action {
+    margin: 0px; }
 
 .body-copy {
-  padding: 50px 0; }
+  padding: 3% 0; }
   .body-copy__typo {
     max-width: 80%;
     margin: 0 auto; }
+    .body-copy__typo--headline {
+      padding: 0px;
+      margin: 0px; }
+      .body-copy__typo--headline p {
+        margin: 0px; }
+    .body-copy__typo--action {
+      color: black;
+      padding: 0px;
+      margin: 0px; }
+      .body-copy__typo--action p {
+        margin: 0px; }
+
+.card {
+  font-family: "Roboto", sans-serif;
+  display: grid;
+  max-width: 1250px;
+  margin: 0 auto;
+  width: 100%;
+  color: #fff;
+  border: 1px solid black;
+  padding: 1px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  grid-gap: 1px; }
+  .card__item {
+    display: grid;
+    padding: 15px; }
+    .card__item--headline {
+      background-image: url(../img/card.jpg);
+      background-size: cover; }
+    .card__item--action {
+      background-color: #fff;
+      grid-gap: 5px; }

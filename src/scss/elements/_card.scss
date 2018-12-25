@@ -1,0 +1,25 @@
+.card{
+  font-family: $main-font;
+  display: grid;
+  max-width: 1250px;
+  margin: 0 auto;
+  width: 100%;
+  color: $color-sub-accent;
+  border: 1px solid black;
+  padding: 1px;
+  box-sizing: border-box;
+  background-color: $card-bg;
+  grid-gap: 1px;
+  &__item{
+    display: grid;
+    padding: 15px;
+    &--headline{
+      background-image: url(../img/card.jpg);
+      background-size: cover;
+    }
+    &--action{
+      background-color: $color-sub-accent;
+      grid-gap: 5px;
+    }
+  }
+}
