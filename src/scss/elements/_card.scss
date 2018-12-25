@@ -33,3 +33,33 @@
     }
   }
 }
+
+@media (min-width: 479px) and (max-width: 1023px){
+  .card{
+    grid-template: 1fr 1fr / 1fr 1fr;
+    grid-gap: 5px;
+    &__item{
+      &--calendar{
+        grid-column: 1/3;
+      }
+      &--split{
+        grid-column: 1/3;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px){
+  .card{
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    grid-gap: 10px;
+    &__item{
+      &--headline{
+        grid-row: 1 / 3;
+      }
+      &--action{
+        grid-row: 1 / 3;
+      }
+    }
+  }
+}
