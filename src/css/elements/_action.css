@@ -1,5 +1,0 @@
-.action__bottom {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 2px;
-  align-self: end; }
