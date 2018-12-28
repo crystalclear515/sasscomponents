@@ -1,20 +1,25 @@
-.body-copy{
+.body-copy {
   padding: 3% 0;
-  &__typo{
+
+  &__typo {
     max-width: 80%;
     margin: 0 auto;
-    &--headline{
+
+    &--headline {
       padding: 0px;
       margin: 0px;
-      & p{
-        margin: 0px;
-      }
     }
-    &--action{
+
+    &--paragraph {
+      margin: 0px;
+    }
+
+    &--action {
       color: black;
       padding: 0px;
       margin: 0px;
-      & p{
+
+      & p {
         margin: 0px;
       }
     }

@@ -1,5 +1,5 @@
-.action{
-  &__bottom{
+.action {
+  &__bottom {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2px;
@@ -7,9 +7,9 @@
   }
 }
 
-@media (min-width: 1024px){
-  .action{
-    &__bottom{
+@media (min-width: 1024px) {
+  .action {
+    &__bottom {
       grid-template-columns: 1fr;
     }
   }

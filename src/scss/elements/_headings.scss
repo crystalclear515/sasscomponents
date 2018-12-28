@@ -1,53 +1,63 @@
-.heading{
+.heading {
   margin: 0;
   font-family: $main-font;
   font-weight: normal;
-  &--1{
+
+  &--1 {
     font-size: 119px;
     line-height: 132px;
     font-weight: bold;
     margin-bottom: 90px;
     letter-spacing: -1.785px;
   }
-  &--2{
+
+  &--2 {
     font-size: 61px;
     line-height: 72px;
     margin-bottom: 56px;
     letter-spacing: -0.915px;
   }
-  &--3{
+
+  &--3 {
     font-size: 31px;
     line-height: 36px;
     margin-bottom: 32px;
     letter-spacing: -0.465px;
   }
-  &--4{
+
+  &--4 {
     font-size: 25px;
     line-height: 32px;
     margin-bottom: 28px;
     letter-spacing: -0.375px;
   }
-  &--5{
+
+  &--5 {
     font-size: 20px;
     line-height: 28px;
     margin-bottom: 24px;
     letter-spacing: -0.3px;
   }
-  &--6{
+
+  &--6 {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 0px;
   }
-  &--headline{
+
+  &--headline {
     margin: 0px;
   }
-  &--action{
+
+  &--action {
     margin: 0px;
   }
-  &--calendar{
+
+  &--calendar {
     margin: 0px;
   }
-  &--split{
+
+  &--split {
     margin: 0px;
   }
 }
